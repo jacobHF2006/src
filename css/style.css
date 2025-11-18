@@ -1,0 +1,93 @@
+/* ================================
+   ESTILO GENERAL PARA TIENDA DE ROPA
+   ================================ */
+
+/* Fuente elegante */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================
+   NAVBAR - Menú superior
+   ============================ */
+.navbar {
+    padding: 25px 0;  /* Más alto */
+    background-color: #212529 !important;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;       /* Más grande */
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-size: 1.5rem;       /* Más grande y legible */
+    font-weight: 500;
+    padding: 12px 25px !important;
+    color: #e5e5e5 !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffffff !important;
+    border-bottom: 3px solid #ffffff;
+}
+
+/* ============================
+   CARRUSEL - Ajuste de imágenes
+   ============================ */
+.carousel-item img {
+    width: 100%;
+    height: 80vh;              
+    object-fit: cover;         
+    object-position: center;
+    border-radius: 8px;
+}
+
+/* Carrusel responsivo */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 50vh;
+    }
+}
+
+/* Descripción del carrusel más grande */
+.carousel-caption {
+    font-family: "Poppins", sans-serif;
+}
+
+.carousel-caption h5 {
+    font-size: 2.6rem;     /* Más grande */
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 1.6rem;     /* Más grande */
+    font-weight: 400;
+}
+
+/* Fondo suave detrás del texto */
+.carousel-caption.bg-dark {
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+footer {
+    background-color: #e6e6e6;
+    padding: 25px 0;
+    font-size: 1.4rem;     /* Texto más grande */
+    color: #333;
+    margin-top: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+

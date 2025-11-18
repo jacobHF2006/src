@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inicio - Mi Tienda</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+
+    <!-- Archivo CSS propio -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">D Brothers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu/productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu/contactanos.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu/nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARRUSEL DE 4 IMÁGENES -->
+    <div id="carruselProductos" class="carousel slide mt-4" data-bs-ride="carousel">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselProductos" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carruselProductos" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carruselProductos" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carruselProductos" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- Imágenes -->
+        <div class="carousel-inner">
+            
+            <!-- Imagen 1 -->
+            <div class="carousel-item active">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.bL12hEk3-3RDnEm53yWv0wHaF-?rs=1&pid=ImgDetMain&o=7&rm=3" 
+                     class="d-block w-100" alt="Producto 1">
+                
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Ropa Casual</h5>
+                    <p>Moda cómoda y moderna para uso diario.</p>
+                </div>
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="carousel-item">
+                <img src="https://estasdemoda.com/wp-content/uploads/2015/06/ropa-imprescindible-verano-2015.jpg" 
+                     class="d-block w-100" alt="Producto 2">
+                
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Ropa de Verano</h5>
+                    <p>Estilos frescos para la temporada.</p>
+                </div>
+            </div>
+
+            <!-- Imagen 3 -->
+            <div class="carousel-item">
+                <img src="https://myquickurl.com/cheerlives.com/14-cheerlives_whimsyway_20241213091156.webp" 
+                     class="d-block w-100" alt="Producto 3">
+                
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Ropa Deportiva</h5>
+                    <p>Comodidad y estilo para tus entrenamientos.</p>
+                </div>
+            </div>
+
+            <!-- Imagen 4 -->
+            <div class="carousel-item">
+                <img src="https://ae01.alicdn.com/kf/HTB17RMLcRGE3KVjSZFhq6AkaFXaR/2019-ropa-de-verano-ropa-de-ni-os-de-moda-estilo-carta-ropa-conjunto-ropa-de.jpg" 
+                     class="d-block w-100" alt="Producto 4">
+                
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                    <h5>Moda Infantil</h5>
+                    <p>Ropa moderna y cómoda para los pequeños.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselProductos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselProductos" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-light text-center py-3 mt-5">
+        <p>&copy; 2025 Mi Tienda. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

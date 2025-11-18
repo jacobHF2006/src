@@ -37,12 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        // Validar email solo si se ingresó
+        // Validar email solo si se ingresó (opcional)
         if(email !== "" && !/^\S+@\S+\.\S+$/.test(email)) {
             alert("Ingrese un correo electrónico válido.");
             document.getElementById("email").focus();
             return;
         }
+
+        // Campos opcionales: mensaje y suscripción no requieren validación
 
         // Si todo está correcto
         alert("Formulario enviado correctamente. ¡Gracias por contactarnos!");
@@ -87,4 +89,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
-
